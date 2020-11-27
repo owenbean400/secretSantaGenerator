@@ -9,7 +9,7 @@ Make sure you have Node JS to use this program :)
 ## Edit JSON
 
 Edit people.json file with the name of the person and their email address.
-use "\_" to make a space between names
+use "\_" to make a space between names.
 
 ```JSON
     {
@@ -24,7 +24,7 @@ use "\_" to make a space between names
 
 ## Set up Secret Santa Email Address
 
-edit secretSantaGenerator.js email sender and email sender password variable with email address of what being sent to people for secret santa.
+Edit secretSantaGenerator.js email sender and email sender password variable with email address of what being sent to people for secret santa.
 The two variables are on lines 17 and 18.
 
 ```javascript
@@ -34,13 +34,17 @@ var emailSenerPassword = "InsertPasswordHere"; //change email password to the em
 
 ## Customize Email HTML Send
 
-edit the secretSanta.html to change the template of secret santa being emailed.
+Edit the secretSanta.html to change the template of secret santa being emailed.
 "&name&" within the html code will be replaced with the name of the person.
 Only one &name& is allowed right now.
 
 ## Have Fun
 
-Enjoy your secret santa for the holidays. Feel free to use this program for your holiday fun
+Enjoy your secret santa for the holidays. Feel free to use this program for your holiday fun.
+
+## Author
+
+[Owen G. Bean](https://owengbean.com/)
 
 ## License
 
